@@ -1,9 +1,3 @@
-provider "aws" {
-access_key = "AKIAJSNPB7G3AT6NKYGQ"
-secret_key = "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"
-region = "ap-southeast-1"
-}
-
 resource "aws_instance" "app"{
 ami = "ami-01da99628f381e50a"
 instance_type = "t2.micro"

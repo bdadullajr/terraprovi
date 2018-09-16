@@ -1,0 +1,10 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module directory
+#~/terraform/mediacorp/github-repo/terraprovi/terraform/APP/*.tfstate
+#~/terraform/mediacorp/github-repo/terraprovi/terraform/APP/*.tfstate
+
+# Sensitive Files
+#/variables.tf
