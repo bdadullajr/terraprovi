@@ -1,0 +1,12 @@
+---
+- name: This sets up an web webserver
+  hosts: web
+  tasks:
+  - name: Install the app rpm
+    yum: name=httpd
+  - name: start the web service
+    service: name=httpd state=started
+
+
+
+

@@ -1,0 +1,12 @@
+---
+- name: This sets up an tomcat appserver
+  hosts: app
+  tasks:
+  - name: Install the tomcat rpm
+    yum: name=tomcat
+  - name: start the tomcat service
+    service: name=tomcat state=started
+
+
+
+

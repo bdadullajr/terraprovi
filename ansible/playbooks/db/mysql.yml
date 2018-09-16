@@ -1,0 +1,12 @@
+---
+- name: This sets up an mysql dbserver
+  hosts: db
+  tasks:
+  - name: Install the mysql rpm
+    yum: name=mariadb-server
+  - name: start the mysql service
+    service: name=mariadb state=started
+
+
+
+
