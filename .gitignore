@@ -1,6 +1,6 @@
 # Compiled files
-terraform/APP/*.tfstate
-terraform/APP/*.tfstate.backup
+terraform/APP/terraform.tfstate.backup
+terraform/APP/terraform.tfstate
 
 # Module directory
 #~/terraform/mediacorp/github-repo/terraprovi/terraform/APP/*.tfstate
